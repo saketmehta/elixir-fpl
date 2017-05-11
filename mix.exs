@@ -31,7 +31,9 @@ defmodule FPL.Mixfile do
   defp deps do
     [
       {:ecto, "~> 2.0"},
-      {:postgrex, "~> 0.11"}
+      {:postgrex, "~> 0.11"},
+      {:quantum, ">= 1.9.1"},
+      {:timex, "~> 3.0"}
     ]
   end
 end
